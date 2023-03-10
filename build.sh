@@ -14,6 +14,7 @@ buildah run "$ctr" -- rpm-ostree install \
     fcitx5-hangul \
     fcitx5-configtool \
     gnome-keyring \
+    gnome-keyring-pam \
     net-tools \
     network-manager-applet \
     sxhkd \
