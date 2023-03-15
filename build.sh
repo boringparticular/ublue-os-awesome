@@ -22,7 +22,6 @@ buildah run "$ctr" -- rpm-ostree install \
     network-manager-applet \
     sxhkd \
     rofi \
-    stow \
     tmux \
     volumeicon \
     xsecurelock \
