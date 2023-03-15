@@ -18,18 +18,18 @@ buildah run "$ctr" -- rpm-ostree install \
     fcitx5-configtool \
     gnome-keyring \
     gnome-keyring-pam \
-    net-tools \
     network-manager-applet \
     sxhkd \
     rofi \
     stow \
     tmux \
-    util-linux-user \
     volumeicon \
     xsecurelock \
     zsh && \
     rpm-ostree cleanup -m && \
     ostree container commit
+
+buildah run "$ctr" -- flatpak remote-modify --enable flathub
 
 buildah umount "$ctr"
 
