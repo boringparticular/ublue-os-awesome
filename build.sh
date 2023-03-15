@@ -10,6 +10,7 @@ buildah run "$ctr" -- systemctl enable getty@tty1.service
 
 buildah run "$ctr" -- rpm-ostree install \
     alacritty \
+    ansible-core \
     awesome \
     borgbackup \
     dunst \
