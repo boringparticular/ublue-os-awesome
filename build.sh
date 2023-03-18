@@ -15,14 +15,15 @@ buildah run "$ctr" -- rpm-ostree install \
     borgbackup \
     dunst \
     fcitx5 \
-    fcitx5-hangul \
     fcitx5-configtool \
+    fcitx5-hangul \
     gnome-keyring \
     gnome-keyring-pam \
     network-manager-applet \
-    sxhkd \
     rofi \
+    sxhkd \
     tmux \
+    util-linux-user \
     volumeicon \
     xsecurelock \
     zsh && \
