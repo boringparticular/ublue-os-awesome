@@ -23,7 +23,6 @@ buildah run "$ctr" -- rpm-ostree install \
     rofi \
     sxhkd \
     tmux \
-    util-linux-user \
     volumeicon \
     xsecurelock \
     zsh && \
