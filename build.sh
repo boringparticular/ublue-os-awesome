@@ -26,6 +26,7 @@ buildah run "$ctr" -- rpm-ostree install \
     volumeicon \
     xsecurelock \
     zsh && \
+    rpm-ostree remove firefox firefox-langpacks && \
     rpm-ostree cleanup -m && \
     ostree container commit
 
