@@ -25,6 +25,9 @@ buildah run "$ctr" -- rpm-ostree install \
     tmux \
     volumeicon \
     xsecurelock \
+    xset \
+    xsetroot \
+    xss-lock \
     zsh && \
     rpm-ostree remove firefox firefox-langpacks && \
     rpm-ostree cleanup -m && \
