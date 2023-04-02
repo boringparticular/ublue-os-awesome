@@ -13,6 +13,7 @@ buildah run "$ctr" -- rpm-ostree install \
     ansible-core \
     awesome \
     borgbackup \
+    dbus-x11 \
     dunst \
     fcitx5 \
     fcitx5-configtool \
