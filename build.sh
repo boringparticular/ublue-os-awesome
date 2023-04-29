@@ -10,7 +10,6 @@ buildah run "$ctr" -- systemctl enable getty@tty1.service
 
 buildah run "$ctr" -- rpm-ostree install \
     alacritty \
-    ansible-core \
     awesome \
     borgbackup \
     dbus-x11 \
@@ -23,7 +22,6 @@ buildah run "$ctr" -- rpm-ostree install \
     network-manager-applet \
     rofi \
     sxhkd \
-    tmux \
     volumeicon \
     xsecurelock \
     xset \
